@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Industrial Control Room Design Tokens */
+  --bg-primary: #14181C;
+  --bg-surface: #21262B;
+  --bg-surface-secondary: #272D33;
+  --border-line: #3A4149;
+  --border-focus: #4A535D;
+  --text-primary: #E7E4D9;
+  --text-secondary: #9BA2A9;
+  --accent-blue: #3E7C96;
+  --accent-red: #A63C2B;
+  --status-success: #6C8B78;
+  --chart-steel: #6D7C86;
+  --radius: 12px;
+}
+
+.dark {
+  --bg-primary: #14181C;
+  --bg-surface: #21262B;
+  --bg-surface-secondary: #272D33;
+  --border-line: #3A4149;
+  --border-focus: #4A535D;
+  --text-primary: #E7E4D9;
+  --text-secondary: #9BA2A9;
+  --accent-blue: #3E7C96;
+  --accent-red: #A63C2B;
+  --status-success: #6C8B78;
+  --chart-steel: #6D7C86;
+}
+
+/* Base Body Styles */
+body {
+  background-color: #14181C;
+  color: #E7E4D9;
+  font-family: Inter, "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+html.dark body,
+html:not(.dark) body {
+  background-color: #14181C;
+  color: #E7E4D9;
+}
+
+/* ==========================================================================
+   Industrial Software Engineering Components
+   ========================================================================== */
+
+/* 1. Header & Navigation */
+header {
+  background-color: #14181C;
+  border-bottom: 1px solid #3A4149;
+}
+
+.sih-top-ribbon {
+  background-color: #101316 !important;
+  border-bottom: 1px solid #2B3138 !important;
+  color: #9BA2A9 !important;
+}
+
+/* 2. Industrial Buttons */
+.btn-primary {
+  background-color: #3E7C96;
+  color: #E7E4D9;
+  border: 1px solid #3E7C96;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+.btn-primary:hover {
+  background-color: #4A8FAC;
+  border-color: #4A8FAC;
+}
+.btn-primary:active {
+  transform: translateY(0.5px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #E7E4D9;
+  border: 1px solid #3A4149;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.btn-secondary:hover {
+  background-color: #21262B;
+  border-color: #4A535D;
+  color: #FFFFFF;
+}
+
+/* Backward compatibility */
+.btn-glow-teal,
+.btn-glow-blue,
+.btn-glow-purple,
+.btn-glow-amber {
+  background-color: #3E7C96 !important;
+  color: #E7E4D9 !important;
+  box-shadow: none !important;
+  border: 1px solid #3E7C96 !important;
+  border-radius: 10px !important;
+  transition: all 0.15s ease;
+}
+.btn-glow-teal:hover,
+.btn-glow-blue:hover,
+.btn-glow-purple:hover,
+.btn-glow-amber:hover {
+  background-color: #4A8FAC !important;
+  border-color: #4A8FAC !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+/* 3. Cards & Panels */
+.card-lift,
+.interactive-card {
+  background-color: #21262B;
+  border: 1px solid #3A4149;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.card-lift:hover,
+.interactive-card:hover {
+  border-color: #4A535D;
+  background-color: #272D33;
+}
+
+/* 4. Precision Technical Grid */
+.ambient-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(58, 65, 73, 0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(58, 65, 73, 0.35) 1px, transparent 1px);
+}
+
+/* 5. Precision Laser Scan (Subtle Steel/Cyanotype Blue) */
+@keyframes laser-scan-industrial {
+  0% { top: 0%; opacity: 0.4; }
+  50% { opacity: 0.7; }
+  100% { top: 98%; opacity: 0.4; }
+}
+
+.animate-laser-scan {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent 0%, #3E7C96 35%, #6D7C86 50%, #3E7C96 65%, transparent 100%);
+  box-shadow: 0 0 4px rgba(62, 124, 150, 0.3);
+  animation: laser-scan-industrial 4.5s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+/* 6. Typography Helpers */
+.text-gradient-cyan {
+  color: #3E7C96 !important;
+  background: none !important;
+  -webkit-text-fill-color: #3E7C96 !important;
+}
+
+.text-gradient-silver {
+  color: #E7E4D9 !important;
+  background: none !important;
+  -webkit-text-fill-color: #E7E4D9 !important;
+}
+
+/* 7. Form Controls */
+textarea,
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  background-color: #14181C !important;
+  color: #E7E4D9 !important;
+  border-color: #3A4149 !important;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+textarea:focus,
+select:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  border-color: #3E7C96 !important;
+  box-shadow: 0 0 0 1px #3E7C96 !important;
+  outline: none !important;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #6D7C86 !important;
+}
+
+/* 8. Tables */
+table thead {
+  background-color: #14181C !important;
+  border-bottom: 1px solid #3A4149 !important;
+}
+
+table thead th {
+  color: #9BA2A9 !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+table tbody tr {
+  border-color: #3A4149 !important;
+}
+
+table tbody tr:hover {
+  background-color: #272D33 !important;
+}
+
+table tbody td {
+  color: #E7E4D9 !important;
+}
+
+/* 9. Code & Pre Blocks */
+pre, code {
+  background-color: #14181C !important;
+  color: #E7E4D9 !important;
+  border-color: #3A4149 !important;
+}
+
+/* 10. Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #14181C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3A4149;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4A535D;
+}
+
+/* 11. Subtle Fade In */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

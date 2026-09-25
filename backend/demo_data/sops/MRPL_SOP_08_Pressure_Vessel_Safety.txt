@@ -1,0 +1,33 @@
+================================================================================
+MANGALORE REFINERY AND PETROCHEMICALS LIMITED (MRPL)
+STANDARD OPERATING PROCEDURE & SAFETY DIRECTIVE
+================================================================================
+SOP CODE: MRPL-SOP-MECH-08 | REVISION: 4.1 | VALIDITY: 2025-2028
+TITLE: ASSET INTEGRITY MANAGEMENT: PRESSURE VESSELS & HEAT EXCHANGERS
+
+--- [PAGE 1] ---
+1. PURPOSE & SCOPE
+This standard operating procedure governs inspection intervals, minimum structural thresholds, corrosion monitoring, and emergency retirement criteria for all shell-and-tube heat exchangers, pressure vessels, and hydro-processing columns operated at MRPL Refinery Complex, Mangalore.
+
+--- [PAGE 2] ---
+2. REGULATORY & STATUTORY FRAMEWORK
+This standard strictly conforms to the Oil Industry Safety Directorate (OISD) Standard 129, OISD Standard 130, and ASME Boiler and Pressure Vessel Code Section VIII Division 1.
+
+--- [PAGE 3] ---
+3. CORROSION ALLOWANCE AND MONITORING FREQUENCY
+For high-sulfur sour crude distillation services, ultrasonic wall thickness mapping must be executed at intervals not exceeding 24 months. If corrosion rates exceed 0.50 mm/annum, inspection frequency must be doubled to every 12 months.
+
+--- [PAGE 4] ---
+4. MANDATORY RETIREMENT THICKNESS CRITERIA
+Section 4.1: Shell Wall Integrity
+Minimum allowable shell thickness shall be calculated according to internal design pressure. Shell wall thinning below 80% of nominal requires immediate derating or reinforcement sleeves.
+
+Section 4.2: Shell & Tube Wall Safety Threshold (CRITICAL MANDATE)
+Under no operational circumstances shall carbon steel or low-alloy heat exchanger tube wall thickness be permitted to operate below 3.50 mm (from nominal 5.00 mm). Any thickness measurement <= 3.50 mm constitutes a Category-A Critical Safety Hazard, mandating:
+a) Immediate physical isolation of the exchanger bundle via emergency bypass.
+b) Generation of an expedited Executive Approval Note for retubing or bundle replacement.
+c) Full replacement with corrosion-resistant Inconel-625 cladding or Duplex Stainless Steel UNS S31803.
+
+--- [PAGE 5] ---
+5. SIGN-OFF AUTHORIZATION MATRIX
+All emergency repair notes, turnaround deviations, and equipment replacement authorizations must receive technical verification by Lead Inspection Engineer, technical endorsement by DGM (Technical Services), and final statutory financial approval by Chief General Manager (Refinery Operations).

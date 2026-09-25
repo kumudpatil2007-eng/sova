@@ -1,0 +1,31 @@
+MRPL REFINERY - UNIT 11 (CRUDE DISTILLATION UNIT)
+PIPING & INSTRUMENTATION DIAGRAM (P&ID) SCHEMATIC DATA
+Drawing No: MRPL-DWG-CDU1-PID-4100-REV3
+Status: AS-BUILT ON-PREMISE DRAWING
+
+================================================================================
+EQUIPMENT TAGS:
+• 11-HX-401A/B : Pre-Flash Heat Exchanger (Shell & Tube, 2-Pass)
+• 11-P-102A/B  : Desalted Crude Booster Pump (Centrifugal, API 610)
+• 11-V-201     : Crude Flash Drum (Vertical Separator)
+
+PIPING & LINE IDENTIFIERS:
+• Line 12"-CDU-101-A1A (Crude Feed to HX-401 Shell Side, Design: 22.0 bar, 210°C)
+• Line 8"-CDU-102-B2B  (Residue Return to HX-401 Tube Side, Design: 18.5 bar, 185°C)
+• Line 6"-CDU-202-C3C  (Bypass Line around HX-401 for Maintenance / Isolation)
+
+INSTRUMENTATION & CONTROL LOOPS:
+• TI-4101 : Shell Side Outlet Temperature Transmitter (Current: 185.3°C)
+• PI-4102 : Tube Side Inlet Pressure Transmitter (Current: 18.47 bar)
+• FIC-4103: Flow Indicating Controller on Crude Feed (Design: 450 m3/hr)
+• PSV-4105: Pressure Safety Valve Set Point: 24.2 bar (Discharge to Flare Header)
+
+ISOLATION VALVES & BLIND LOCATIONS:
+• MOV-4101: Motorized Inlet Isolation Valve (Normally OPEN)
+• MOV-4102: Motorized Outlet Isolation Valve (Normally OPEN)
+• Spectacle Blind SB-4101 located at Tube Sheet Flange for Emergency Turnaround
+
+SOP-08 ALIGNMENT NOTE:
+When shell wall thickness breaches 3.50mm cut-off, activate Bypass Line 6"-CDU-202-C3C
+and close MOV-4101 / MOV-4102 to isolate 11-HX-401 for immediate retubing.
+================================================================================

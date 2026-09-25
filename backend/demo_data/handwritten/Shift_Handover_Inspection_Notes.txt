@@ -1,0 +1,21 @@
+MRPL REFINERY - SHIFT HANDOVER LOG & OPERATOR FIELD NOTES (HANDWRITTEN)
+Date: 2026-08-24 | Shift: B (14:00 - 22:00 IST) | Unit: CDU-1 / Vacuum Unit
+Logged By: Er. S. R. Patil (Shift In-Charge, Plant Area-2)
+
+[TRANSCRIPTION FROM SCANNED HANDWRITTEN LOGSHEET via Qwen2.5-VL]:
+
+14:30 - Visual walkaround of CDU-1 Preheat Train completed.
+15:15 - Noted slight sulfurous odor near HX-401 bottom shell flange.
+15:45 - Ultrasonic NDT team (M/s Industrial Inspection Services) on site.
+        Operator manual reading recorded on pass 2 bottom shell: 3.18mm.
+        Nominal is 5.0mm. Serious thinning observed near baffle cut.
+17:00 - Cross checked with SOP-08 with Area Lead. Limit is 3.5mm.
+        We are 0.32mm below allowed limit!
+18:30 - Pump 11-P-102A vibration feels high on casing. Handheld vibrometer
+        showed 4.8 mm/s RMS (ISO Zone C). Alerted control room.
+20:00 - Recommended to Lead Engineer Nayak: Prepare approval note for
+        emergency tube bundle replacement in upcoming turnaround window.
+        Bypass line 6"-CDU-202-C3C to be kept ready for line-up.
+
+Operator Signature: [S.R. Patil]
+Shift Supervisor Endorsement: [V. Shenoy - DGM Ops]

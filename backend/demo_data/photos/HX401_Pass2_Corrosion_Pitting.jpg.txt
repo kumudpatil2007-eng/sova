@@ -1,0 +1,15 @@
+MRPL REFINERY - FIELD PHOTOGRAPHIC INSPECTION METADATA & VISION ANALYSIS
+File: HX401_Pass2_Corrosion_Pitting.jpg
+Date Captured: 2026-08-24 16:15 IST
+Camera: On-Premise Intrinsically Safe Rugged Inspection Camera (Ex d IIB T4)
+Location: CDU-1, Heat Exchanger 11-HX-401, Lower Shell Pass 2
+
+[VISUAL DEFECT RECOGNITION via Qwen2.5-VL]:
+• Defect Category: Pitting Corrosion & Severe Wall Loss
+• Primary Mechanism: Chloride-induced pitting attack at tube sheet fillet weld
+• Visual Pitting Density: 14 distinct pit sites per 100 cm2 area
+• Pit Depth Range: 1.2 mm to 1.82 mm penetration into 5.0 mm nominal wall
+• Corrosion Scale: Dark reddish-brown FeS/FeCl2 scale deposition
+• Surface Roughness: Severe localized scalloping near inlet nozzle impingement zone
+• Visual Risk Classification: CRITICAL INTEGRITY HAZARD (API 571 Damage Mechanism 4.5.1)
+• Action Recommendation: Hydrojet cleaning, dye penetrant re-test, immediate retubing.

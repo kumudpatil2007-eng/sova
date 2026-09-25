@@ -1,0 +1,44 @@
+================================================================================
+MANGALORE REFINERY AND PETROCHEMICALS LIMITED (MRPL)
+MECHANICAL INSPECTION & PLANT INTEGRITY DEPARTMENT
+EQUIPMENT INSPECTION & NON-DESTRUCTIVE TESTING REPORT
+================================================================================
+
+DOCUMENT REF: MRPL/INSP/2026/UT-HX401-REV2
+UNIT: Crude Distillation Unit 1 (CDU-1)
+EQUIPMENT TAG: 11-HX-401 (Preheat Train Heat Exchanger)
+SERVICE FLUID: Heavy Crude Oil (Shell) / Residue Slurry (Tube)
+DATE OF INSPECTION: August 24, 2026
+INSPECTION METHOD: Ultrasonic Thickness Gauging (UT), Dye Penetrant Test (DPT), Video Borescope
+
+1. DESIGN & OPERATIONAL PARAMETERS
+--------------------------------------------------------------------------------
+- Original Equipment Manufacturer: BHEL Heavy Equipment Division
+- Shell Design Pressure: 22.0 bar | Operating Pressure: 18.5 bar
+- Shell Design Temperature: 220 °C | Operating Temperature: 185 °C
+- Nominal Tube Wall Thickness: 5.00 mm (Carbon Steel SA-179)
+- Number of Tubes: 480 Tubes (2-Pass Floating Head Design)
+
+2. ULTRASONIC THICKNESS (UT) MEASUREMENT MATRIX
+--------------------------------------------------------------------------------
+Pass Quadrant          Nominal (mm)    Measured Min (mm)   Metal Loss (%)   Status
+Pass 1 (Inlet)         5.00            4.45                11.0%            Acceptable
+Pass 1 (Outlet)        5.00            4.20                16.0%            Acceptable
+Pass 2 (Inlet/Bottom)  5.00            3.18                36.4%            CRITICAL THINNING
+Pass 2 (Outlet)        5.00            3.35                33.0%            CRITICAL THINNING
+
+3. VISUAL & METALLURGICAL OBSERVATIONS
+--------------------------------------------------------------------------------
+1. Severe localized pitting corrosion detected along the bottom quadrant of Pass 2 tubes.
+2. Micro-cracking and chloride stress corrosion cracking (SCC) visible around tube-to-tubesheet seal welds.
+3. Heavy scale deposition and under-deposit corrosion observed under sulfur-rich sludge build-up.
+4. Calculated annualized corrosion rate: 0.95 mm/year (significantly exceeding historical 0.15 mm/year baseline).
+
+4. INTEGRITY SUMMARY & RISK ASSESSMENT
+--------------------------------------------------------------------------------
+The measured tube wall thickness of 3.18 mm has breached the mandatory minimum safety limit of 3.50 mm specified in MRPL Safety SOP-08. Immediate risk of tube rupture leading to hydrocarbon contamination into cooling stream.
+
+Inspected by:
+Er. R. K. Nayak, Senior Lead Integrity Engineer, MRPL
+Verified by:
+Er. V. Shenoy, DGM (Technical Services & Asset Reliability)

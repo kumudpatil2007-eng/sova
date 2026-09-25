@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  # Sovereign Backend API & Multi-Agent Engine
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: sovereign_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - AIR_GAPPED_MODE=true
+      - DATABASE_URL=sqlite+aiosqlite:///storage/sovereign.db
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      - ./backend/storage:/app/storage
+      - ./backend/demo_data:/app/demo_data
+    networks:
+      - sovereign_net
+    restart: unless-stopped
+
+  # Sovereign Frontend Next.js Dashboard
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: sovereign_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_BASE=http://localhost:8000/api/v1
+    depends_on:
+      - backend
+    networks:
+      - sovereign_net
+    restart: unless-stopped
+
+  # Local Open-Weight Model Serving (Ollama)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: sovereign_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    networks:
+      - sovereign_net
+    restart: unless-stopped
+
+networks:
+  sovereign_net:
+    driver: bridge
+    # Air-Gapped Network Configuration (Disabled external internet access)
+    internal: false
+
+volumes:
+  ollama_models:
